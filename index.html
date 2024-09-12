@@ -436,7 +436,7 @@
 		<div class="container-fluid">
 				<div class="row color-bg">
 				    <div class="col-md-6 nopadding subscribe text-center">
-					 <h1><i class="fa fa-paper-plane"></i><span>Subscribe our Newsletter</span></h1><!-- Heading -->
+					 <h1><i class="fa fa-paper-plane"></i><span>Subscribe my Newsletter</span></h1><!-- Heading -->
                      <form action="index.html#">
                        <input type="text" name="" value="" placeholder="" required><!-- E-Mail -->
                        <input type="submit" name="" value="Send"><!-- Submit Button -->
@@ -472,21 +472,21 @@
               <div class="col-md-4">
                 <div class="dark-box box-hover">
                   <h2><i class="fa fa-map-marker"></i><span>Address</span></h2>
-                  <p>23 Ipsum street, New York</p>
+                  <p>San Fracisco Bay Area, California</p>
                 </div>
               </div>
 			  <!-- Phone Number Box -->
               <div class="col-md-4">
                 <div class="dark-box box-hover">
                   <h2><i class="fa fa-mobile"></i><span>Phone</span></h2>
-                  <p>+12 345 6789</p>
+                  <p>+1 (628) 333-0162</p>
                 </div>
               </div>
 			  <!-- E-Mail Box -->
               <div class="col-md-4">
                 <div class="dark-box box-hover">
                   <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
-                  <p><a href="index.html#">info@themewagon.com</a></p>
+                  <p><a href="index.html#">rafaelmartinezquiles@gmail.com</a></p>
                 </div>
               </div>
             </div>
@@ -588,35 +588,35 @@
 
 	<!-- GOOGLE MAPS DATA -->
     <script type="text/javascript">
-    // When the window has finished loading create our google map below
-        google.maps.event.addDomListener(window, 'load', init);
-    
-        function init() {
-            // Basic options for a simple Google Map
-            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-            var mapOptions = {
-                // How zoomed in you want the map to start at (always required)
-                zoom: 15,
-                
-                scrollwheel: false,
-
-                // The latitude and longitude to center the map (always required)
-                center: new google.maps.LatLng(40.68961985411178, -74.01618003845215), // New York 
-
-                // How you would like to style the map. 
-                // This is where you would paste any style found on Snazzy Maps.
-                styles: [	{		featureType:'water',		stylers:[{color:'#F2F2F2'},{visibility:'on'}]	},{		featureType:'landscape',		stylers:[{color:'#FFFFFF'}]	},{		featureType:'road',		stylers:[{saturation:-100},{lightness:45}]	},{		featureType:'road.highway',		stylers:[{visibility:'simplified'}]	},{		featureType:'road.arterial',		elementType:'labels.icon',		stylers:[{visibility:'off'}]	},{		featureType:'administrative',		elementType:'labels.text.fill',		stylers:[{color:'#ADADAD'}]	},{		featureType:'transit',		stylers:[{visibility:'off'}]	},{		featureType:'poi',		stylers:[{visibility:'off'}]	}]
-            };
-
-            // Get the HTML DOM element that will contain your map 
-            // We are using a div with id="map" seen below in the <body>
-            var mapElement = document.getElementById('googlemaps');
-
-            // Create the Google Map using out element and options defined above
-            var map = new google.maps.Map(mapElement, mapOptions);
-        }
-	
+      // When the window has finished loading create our google map below
+          google.maps.event.addDomListener(window, 'load', init);
+      
+          function init() {
+              // Basic options for a simple Google Map
+              // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+              var mapOptions = {
+                  // How zoomed in you want the map to start at (always required)
+                  zoom: 10,
+                  
+                  scrollwheel: false,
+      
+                  // The latitude and longitude to center the map (always required)
+                  center: new google.maps.LatLng(37.7749, -122.4194), // San Francisco Bay Area
+      
+                  // How you would like to style the map. 
+                  // This is where you would paste any style found on Snazzy Maps.
+                  styles: [	{		featureType:'water',		stylers:[{color:'#F2F2F2'},{visibility:'on'}]	},{		featureType:'landscape',		stylers:[{color:'#FFFFFF'}]	},{		featureType:'road',		stylers:[{saturation:-100},{lightness:45}]	},{		featureType:'road.highway',		stylers:[{visibility:'simplified'}]	},{		featureType:'road.arterial',		elementType:'labels.icon',		stylers:[{visibility:'off'}]	},{		featureType:'administrative',		elementType:'labels.text.fill',		stylers:[{color:'#ADADAD'}]	},{		featureType:'transit',		stylers:[{visibility:'off'}]	},{		featureType:'poi',		stylers:[{visibility:'off'}]	}]
+              };
+      
+              // Get the HTML DOM element that will contain your map 
+              // We are using a div with id="googlemaps" seen below in the <body>
+              var mapElement = document.getElementById('googlemaps');
+      
+              // Create the Google Map using our element and options defined above
+              var map = new google.maps.Map(mapElement, mapOptions);
+          }
     </script>
+  
 	
 	<!-- TEXT ROTATOR SETTINGS -->
     <script type="text/javascript">
