@@ -455,12 +455,10 @@ table {
 .hero {
     background: url('../img/header-bg.jpg') center center no-repeat;
     background-size: cover;
-    padding: 100px 0 100px 0;
-    width: 10%;
-    height: auto; /* Or set a specific height if needed */
+    padding: 110px 0 100px 0;
+    width: auto; /* Ensure the hero section spans the full viewport width */
+    height: auto; /* Optionally set a specific height, like the full viewport height */
     background-color: #FBFBFB;
-    overflow: hidden; /* Prevents horizontal scrolling */
-    box-sizing: border-box; /* Ensures padding is included in the width calculation */
 }
 .hero h1 {
 	font-size: 120px;
