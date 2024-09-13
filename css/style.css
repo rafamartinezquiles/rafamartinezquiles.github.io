@@ -456,11 +456,12 @@ table {
     background: url('../img/header-bg.jpg') center center no-repeat;
     background-size: cover;
     padding: 110px 0 100px 0;
-    width: 5vw; /* Ensure the hero section spans the full viewport width */
-    height: auto; /* Optionally set a specific height, like the full viewport height */
+    width: 100%;
+    max-width: 100vw; /* Ensures the hero section does not exceed viewport width */
+    height: 100vh; /* Or set a specific height if needed */
     background-color: #FBFBFB;
-    margin: 0; /* Reset any potential margins */
-    box-sizing: border-box; /* Ensure padding doesn't affect the width calculation */
+    overflow: hidden; /* Prevents horizontal scrolling */
+    box-sizing: border-box; /* Ensures padding is included in the width calculation */
 }
 .hero h1 {
 	font-size: 120px;
