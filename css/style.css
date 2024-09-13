@@ -1179,24 +1179,6 @@ ul.slides li {
 	}
 }
 
-.overlay-effect .img {
-	position: relative;
-	display: inline-block;
-  }
-  
-  .overlay-text {
-	position: absolute;
-	bottom: 30px; /* Adjust this value as needed */
-	left: 0;
-	width: 100%;
-	background-color: rgba(255, 255, 255, 0.8); /* White background with some transparency */
-	color: #333; /* Text color */
-	text-align: left;
-	padding: 1px 0; /* Adjust padding as needed */
-	font-size: 14px; /* Adjust font size as needed */
-	font-weight: bold;
-  }
-
 
 /** Responsive fixes **/
 @media screen and (max-width:767px) {
