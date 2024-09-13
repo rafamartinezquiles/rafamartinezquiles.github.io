@@ -1186,21 +1186,16 @@ ul.slides li {
   
   .overlay-text {
 	position: absolute;
-	bottom: 10px; /* Adjust this value as needed */
+	bottom: 30px; /* Adjust this value as needed */
 	left: 0;
 	width: 100%;
 	background-color: rgba(255, 255, 255, 0.8); /* White background with some transparency */
 	color: #333; /* Text color */
-	text-align: center;
-	padding: 5px 0; /* Adjust padding as needed */
+	text-align: left;
+	padding: 1px 0; /* Adjust padding as needed */
 	font-size: 14px; /* Adjust font size as needed */
 	font-weight: bold;
   }
-
-
-
-
-
 
 
 /** Responsive fixes **/
