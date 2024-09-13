@@ -453,11 +453,14 @@ table {
 }
 /* ==========================================================================Hero========================================================================== */
 .hero {
-	background: url('../img/header-bg.jpg') center center no-repeat;
-	background-size: cover;
-	padding:110px 0 100px 0;
-	height:auto;
-	background-color: #FBFBFB;
+    background: url('../img/header-bg.jpg') center center no-repeat;
+    background-size: cover;
+    padding: 110px 0 100px 0;
+    width: 100vw; /* Ensure the hero section spans the full viewport width */
+    height: auto; /* Optionally set a specific height, like the full viewport height */
+    background-color: #FBFBFB;
+    margin: 0; /* Reset any potential margins */
+    box-sizing: border-box; /* Ensure padding doesn't affect the width calculation */
 }
 .hero h1 {
 	font-size: 120px;
