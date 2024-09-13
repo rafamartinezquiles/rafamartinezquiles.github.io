@@ -453,13 +453,12 @@ table {
 }
 /* ==========================================================================Hero========================================================================== */
 .hero {
-    background: url('../img/header-bg.jpg') center center no-repeat;
-    background-size: cover;
-    padding: 110px 0 100px 0;
-    height: auto;
-    background-color: #fa0505;
+	background: url('../img/header-bg.jpg') center center no-repeat;
+	background-size: cover;
+	padding:110px 0 100px 0;
+	height:auto;
+	background-color: #FBFBFB;
 }
-
 .hero h1 {
 	font-size: 120px;
 	letter-spacing: -8px;
