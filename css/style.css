@@ -456,9 +456,8 @@ table {
     background: url('../img/header-bg.jpg') center center no-repeat;
     background-size: cover;
     padding: 110px 0 100px 0;
-    width: 100%;
-    max-width: 100vw; /* Ensures the hero section does not exceed viewport width */
-    height: 100vh; /* Or set a specific height if needed */
+    width: 95%;
+    height: auto; /* Or set a specific height if needed */
     background-color: #FBFBFB;
     overflow: hidden; /* Prevents horizontal scrolling */
     box-sizing: border-box; /* Ensures padding is included in the width calculation */
