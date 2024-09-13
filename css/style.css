@@ -455,7 +455,7 @@ table {
 .hero {
     background: url('../img/header-bg.jpg') center center no-repeat;
     background-size: cover;
-    padding: 110px 0 100px 0;
+    padding: 100px 0 100px 0;
     width: 10%;
     height: auto; /* Or set a specific height if needed */
     background-color: #FBFBFB;
