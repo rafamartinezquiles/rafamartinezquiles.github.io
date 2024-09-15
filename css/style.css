@@ -472,10 +472,6 @@ table {
 	color:#a1a9b0;
 	/* display:inline-block; */
 }
-/* Center the text in the container */
-.inner {
-    text-align: center; /* Centers text horizontally */
-}
 
 .header-headline {
     margin-top: -20px; /* Adjust as needed to move the text higher */
