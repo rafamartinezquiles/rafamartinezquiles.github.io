@@ -472,6 +472,13 @@ table {
 	color:#a1a9b0;
 	/* display:inline-block; */
 }
+.white-text {
+    color: #ffffff;
+}
+
+.small-text {
+    font-size: 0.8em;
+}
 .hero h3 {
 	font-size: 20px;
 	margin:0;
