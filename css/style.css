@@ -472,16 +472,9 @@ table {
 	color:#a1a9b0;
 	/* display:inline-block; */
 }
-/* Ensures the row is centered vertically and horizontally */
-.row {
-    display: flex;
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
-    height: 100vh; /* Adjust if needed for full viewport height */
-}
-
+/* Center the text in the container */
 .inner {
-    text-align: center; /* Center text horizontally */
+    text-align: center; /* Centers text horizontally */
 }
 
 .header-headline {
