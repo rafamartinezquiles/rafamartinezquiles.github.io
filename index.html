@@ -405,51 +405,6 @@
         =========================== -->
 		
 		
-		
-		
-		
-		<!-- ==========================
-        NEWSLETTER SECTION 
-        =========================== -->
-        <section>
-		<div class="container-fluid">
-				<div class="row color-bg">
-				    <div class="col-md-6 nopadding subscribe text-center">
-					 <h1><i class="fa fa-paper-plane"></i><span>Subscribe my Newsletter</span></h1><!-- Heading -->
-                     <form action="index.html#">
-                       <input type="text" id="email" name="email" placeholder="Enter your email" required><!-- E-Mail -->
-                       <input type="submit" value="Subscribe"><!-- Submit Button -->
-                    </form>   
-					</div>
-					<div class="col-md-6 nopadding features-intro-img">
-						 <div class="about-image" style="background-image:url(img/newsletter.jpg)"></div><!-- Right Image -->
-					</div>
-				</div>
-			</div>
-        </section>
-        <script>
-          document.getElementById('subscribeForm').addEventListener('submit', function(event) {
-              event.preventDefault();
-              const email = document.getElementById('email').value;
-          
-              fetch('/subscribe', {
-                  method: 'POST',
-                  headers: {
-                      'Content-Type': 'application/x-www-form-urlencoded'
-                  },
-                  body: `email=${encodeURIComponent(email)}`
-              })
-              .then(response => response.text())
-              .then(data => alert(data))
-              .catch(error => console.error('Error:', error));
-          });
-          </script>
-		<!-- ==========================
-        NEWSLETTER SECTION END
-        =========================== -->
-
-		
-		
 		<!-- ==========================
         CONTACT SECTION
         =========================== -->
