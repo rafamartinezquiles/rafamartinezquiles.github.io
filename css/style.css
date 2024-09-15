@@ -479,6 +479,12 @@ table {
 .small-text {
     font-size: 0.8em;
 }
+.smaller-text {
+    font-size: 0.9em;
+}
+.header-headline {
+    margin-top: -20px; /* Adjust as needed to move the text higher */
+}
 .hero h3 {
 	font-size: 20px;
 	margin:0;
