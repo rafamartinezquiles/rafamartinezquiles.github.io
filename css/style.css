@@ -472,23 +472,13 @@ table {
 	color:#a1a9b0;
 	/* display:inline-block; */
 }
-
-.header-headline {
-    margin-top: -20px; /* Adjust as needed to move the text higher */
-}
-
 .white-text {
     color: #ffffff;
 }
 
 .small-text {
-    font-size: 0.8em; /* Adjust as needed */
+    font-size: 0.8em;
 }
-
-.smaller-text {
-    font-size: 0.9em; /* Adjust as needed */
-}
-
 .hero h3 {
 	font-size: 20px;
 	margin:0;
