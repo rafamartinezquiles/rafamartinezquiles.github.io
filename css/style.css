@@ -472,19 +472,34 @@ table {
 	color:#a1a9b0;
 	/* display:inline-block; */
 }
+/* Ensures the row is centered vertically and horizontally */
+.row {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    height: 100vh; /* Adjust if needed for full viewport height */
+}
+
+.inner {
+    text-align: center; /* Center text horizontally */
+}
+
+.header-headline {
+    margin-top: -20px; /* Adjust as needed to move the text higher */
+}
+
 .white-text {
     color: #ffffff;
 }
 
 .small-text {
-    font-size: 0.8em;
+    font-size: 0.8em; /* Adjust as needed */
 }
+
 .smaller-text {
-    font-size: 0.9em;
+    font-size: 0.9em; /* Adjust as needed */
 }
-.header-headline {
-    margin-top: -20px; /* Adjust as needed to move the text higher */
-}
+
 .hero h3 {
 	font-size: 20px;
 	margin:0;
