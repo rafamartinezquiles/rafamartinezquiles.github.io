@@ -1116,6 +1116,29 @@ ul.slides li {
 	background-position:200px 10px;
 	height: 100%;
 }
+
+
+.custom-header {
+	display: flex;
+	justify-content: center; /* Centers horizontally */
+	align-items: flex-start; /* Positions the text towards the top */
+	height: 100vh; /* Takes full height of the viewport */
+  }
+  
+  .custom-name {
+	color: white; /* White text */
+	font-size: 3rem; /* Smaller font size */
+	text-align: center; /* Centers text */
+	margin-top: 10vh; /* Adjusts vertical positioning */
+  }
+  
+  @media (max-width: 768px) {
+	.custom-name {
+	  font-size: 2rem; /* Responsive font size for smaller screens */
+	}
+  }
+  
+
 /* ==========================================================================Responsive========================================================================== */
 /* 320px (iPhone) */
 @media screen and (max-width:414px) {
