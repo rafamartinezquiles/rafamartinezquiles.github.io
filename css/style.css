@@ -1144,6 +1144,10 @@ ul.slides li {
 	.wp2,.wp4,.wp5,.light-box {
 		margin-bottom: 30px;
 	}
+	.hero {
+        background: url('../img/header-bg-mobile.jpg') center center no-repeat;
+        background-size: cover;
+    }
 }
 /* xGA iPad */
 @media screen and (max-width:1024px) {
