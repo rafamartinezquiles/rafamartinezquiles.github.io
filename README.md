@@ -1,7 +1,7 @@
 # Rafael Martínez Quiles - Personal Website
 Welcome to my personal website! This platform serves as a hub to showcase my professional journey, projects, research, and contact details. Below, you'll find an outline of the key sections that the website will host. Each section will be designed with simplicity and professionalism in mind, along with interactive elements for easy navigation.
 
-![](img/header-bg-mobile.jpg)
+![](img/a.jpg)
 
 ## Sections Overview
 
