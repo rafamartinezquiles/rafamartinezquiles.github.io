@@ -1127,7 +1127,11 @@ ul.slides li {
 		font-size: 100px;
 		line-height: 80px;
 		margin-top: 65px;
-}
+	}
+	.hero {
+		background: url('../img/header-bg-mobile.jpg') center center no-repeat;
+		background-size: cover;
+	}
 }
 /* 480px (WVGA - Low End Windows Phone) */
 @media screen and (max-width:480px) {
@@ -1160,12 +1164,20 @@ ul.slides li {
 	.subscribe {
 		background-attachment: scroll;
 	}
+	.hero {
+        background: url('../img/header-bg-mobile.jpg') center center no-repeat;
+        background-size: cover;
+    }
 }
 /* 1200px (Small Desktop,Netbook) */
 @media screen and (max-width:1280px) {
 	.wp3 {
 		background-position: 50px 0;
 	}
+	.hero {
+        background: url('../img/header-bg-mobile.jpg') center center no-repeat;
+        background-size: cover;
+    }
 }
 /* Bootstrap 990px Breakpoint to 480px */
 @media screen and (min-width:480px) and (max-width:991px) {
@@ -1182,12 +1194,20 @@ ul.slides li {
 	.wp2,.wp4,.wp5,.light-box {
 		margin-bottom:30px;
 	}
+	.hero {
+		background: url('../img/header-bg-mobile.jpg') center center no-repeat;
+		background-size: cover;
+	}
 }
 @media screen and (max-width:50em) {
 	.icon-list a {
 		padding:0.5em 0em;
 		margin:0 5px;
 		font-size:1em;
+	}
+	.hero {
+		background: url('../img/header-bg-mobile.jpg') center center no-repeat;
+		background-size: cover;
 	}
 }
 
